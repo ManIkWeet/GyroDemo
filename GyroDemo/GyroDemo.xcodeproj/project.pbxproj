@@ -139,6 +139,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = RoKan;
+				TargetAttributes = {
+					82C32BAD17F7328F003E88C3 = {
+						DevelopmentTeam = 9Z69644A6V;
+					};
+				};
 			};
 			buildConfigurationList = 82C32BA917F7328F003E88C3 /* Build configuration list for PBXProject "GyroDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -262,8 +267,8 @@
 		82C32BD217F7328F003E88C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
 				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";
@@ -277,8 +282,8 @@
 		82C32BD317F7328F003E88C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
 				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";

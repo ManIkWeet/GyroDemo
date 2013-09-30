@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823629B817F9F7AB000B3D7F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 823629B717F9F7AB000B3D7F /* ball.png */; };
+		8243689517F99A93005465E9 /* turret.png in Resources */ = {isa = PBXBuildFile; fileRef = 8243689417F99A93005465E9 /* turret.png */; };
 		82B50D9A17F7486F00D94091 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B50D9917F7486F00D94091 /* CoreMotion.framework */; };
 		82C32BB217F7328F003E88C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C32BB117F7328F003E88C3 /* UIKit.framework */; };
 		82C32BB417F7328F003E88C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C32BB317F7328F003E88C3 /* Foundation.framework */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		823629B717F9F7AB000B3D7F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		8243689417F99A93005465E9 /* turret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret.png; sourceTree = "<group>"; };
 		82B50D9917F7486F00D94091 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		82C32BAE17F7328F003E88C3 /* GyroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C32BB117F7328F003E88C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,8 @@
 			children = (
 				82C32BC017F7328F003E88C3 /* AppDelegate.h */,
 				82C32BC117F7328F003E88C3 /* AppDelegate.m */,
+				8243689417F99A93005465E9 /* turret.png */,
+				823629B717F9F7AB000B3D7F /* ball.png */,
 				82C32BC917F7328F003E88C3 /* MainStoryboard.storyboard */,
 				82C32BCC17F7328F003E88C3 /* ViewController.h */,
 				82C32BCD17F7328F003E88C3 /* ViewController.m */,
@@ -172,6 +178,8 @@
 				82C32BC617F7328F003E88C3 /* Default@2x.png in Resources */,
 				82C32BC817F7328F003E88C3 /* Default-568h@2x.png in Resources */,
 				82C32BCB17F7328F003E88C3 /* MainStoryboard.storyboard in Resources */,
+				8243689517F99A93005465E9 /* turret.png in Resources */,
+				823629B817F9F7AB000B3D7F /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +275,15 @@
 		82C32BD217F7328F003E88C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
 				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -282,14 +291,15 @@
 		82C32BD317F7328F003E88C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert van der Pijl (A4SM22EHZH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
 				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
